@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+    font-size: 40px;
+    font: bolder;
+    font-family:  Tahoma, sans-serif;
+}
+.calc{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.calculator{
+    background-color: black;
+    border-radius: 5px;
+ border: 1px solid black;   
+ text-align: center;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ width: 500px;
+ height: 600px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+ box-shadow: 10px 10px 10px white;
+
+ 
+
+}
+.grid{
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.grid-equals{
+    background-color: orange;
+}
+.display{
+    grid-column: span 4;
+    background-color: white;
+}
+.grid-c{
+background-color: rgb(240, 82, 82);
+}
